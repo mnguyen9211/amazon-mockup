@@ -1,5 +1,59 @@
-div {
+.border {
         margin-left: 500px;
         margin-right: 500px;
+        border: 1px solid lightgray;
+        padding: 10px;
 }
-]
+
+
+* {
+    font-family: 'Amazon Ember', sans-serif;
+}
+.newto {
+    text-align: center;
+    font-weight: light;
+    font-style: normal;
+    display: flex;
+  }
+
+.newto:before,
+.newto:after {
+    content: '';
+    flex: 1;
+    margin: auto 1em;
+    height: 0;
+    border-top: solid #000 1px;
+  } 
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+  hr {
+
+margin-top: 50px;
+margin-bottom: 50px;
+
+  }
+
+.noborder {
+    margin-left: 535px;
+    margin-right: 535px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list {
+    font-size: xx-small;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 600px;
+    margin-right: 600px;
+
+}
